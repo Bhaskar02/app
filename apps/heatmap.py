@@ -10,9 +10,9 @@ def app():
     m = leafmap.Map(tiles="stamentoner")
     m.add_heatmap(
         filepath,
-        latitude="lat",
-        longitude="lon",
-        value="cases",
+        latitude="latitude",
+        longitude="longitude",
+        value="pop_max",
         name="Heat map",
         radius=20,
     )
